@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import WidgetPost from './widget/WidgetPost';
 import WidgetCategory from './widget/WidgetCategory';
-import { FaSearch, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPinterest, FaYoutube} from "react-icons/fa";
+import { FaSearch, FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterest, FaYoutube} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const BlogSidebar = () => {
     return (
@@ -23,7 +24,7 @@ const BlogSidebar = () => {
                     <h5 className="title">Follow:</h5>
                     <ul className="social-list list-unstyled">
                         <li><a href="https://facebook.com/"><FaFacebookF /></a></li>
-                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                        <li><a href="https://twitter.com/"><FaXTwitter /></a></li>
                         <li><a href="https://www.instagram.com/"><FaInstagram /></a></li>
                         <li><a href="https://www.linkedin.com/"><FaLinkedinIn /></a></li>
                         <li><a href="https://www.pinterest.com/"><FaPinterest /></a></li>

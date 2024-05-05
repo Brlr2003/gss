@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Logo from '../../elements/logo/Logo';
 import OffcanvasMenu from './OffcanvasMenu';
 import StickyHeader from './StickyHeader';
-import { FaFacebookF, FaTwitter, FaLinkedin, FaBehance } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin, FaBehance } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import SwitcherHeader from '../../elements/switcher/SwitcherHeader';
 
 
@@ -32,7 +33,7 @@ const HeaderThree = () => {
                                     <li className="header-social-link">
                                         <ul className="social-icon-list list-unstyled">
                                             <li><a href="https://facebook.com/"><FaFacebookF /></a></li>
-                                            <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                            <li><a href="https://twitter.com/"><FaXTwitter /></a></li>
                                             <li><a href="https://www.linkedin.com/"><FaLinkedin /></a></li>
                                             <li><a href="https://www.behance.net/"><FaBehance /></a></li>
                                         </ul>

@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import Tilty from 'react-tilty';
 
@@ -27,7 +28,7 @@ const BannerFour = () => {
                 <   div className="border-line" />
                     <ul className="list-unstyled social-icon">
                         <li><a href="https://facebook.com/"><FaFacebookF /> Facebook</a></li>
-                        <li><a href="https://twitter.com/"><FaTwitter /> twitter</a></li>
+                        <li><a href="https://twitter.com/"><FaXTwitter /> twitter</a></li>
                         <li><a href="https://www.linkedin.com/"><FaLinkedinIn /> Linkedin</a></li>
                     </ul>
                 </div>

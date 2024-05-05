@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Offcanvas from 'react-bootstrap/Offcanvas'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaBehance, FaPhone, FaFax } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaBehance, FaPhone, FaFax } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 
 const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
@@ -47,7 +48,7 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                                         </li>
 
                                         <li>
-                                            <a href="https://twitter.com/"><FaTwitter /></a>
+                                            <a href="https://twitter.com/"><FaXTwitter /></a>
                                         </li>
                                         <li>
                                             <a href="https://www.behance.net/"><FaBehance /></a>

@@ -8,7 +8,8 @@ import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import TeamData from "../data/team/TeamData.json";
 import { slugify } from '../utils';
-import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedinIn, FaInstagram, FaVimeoV, FaDribbble, FaBehance } from "react-icons/fa";
+import { FaFacebookF, FaPinterestP, FaLinkedinIn, FaInstagram, FaVimeoV, FaDribbble, FaBehance } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import Tilty from 'react-tilty';
 
 const allData = TeamData;
@@ -42,7 +43,7 @@ const TeamDetails = () => {
                             <span className="subtitle" dangerouslySetInnerHTML={{__html: detailsTeam.designation}}></span>
                             <ul className="social-share list-unstyled">
                                 <li><a href={detailsTeam.social.facebook}><FaFacebookF /></a></li>
-                                <li><a href={detailsTeam.social.twitter}><FaTwitter /></a></li>
+                                <li><a href={detailsTeam.social.twitter}><FaXTwitter /></a></li>
                                 <li><a href={detailsTeam.social.pinterst}><FaPinterestP /></a></li>
                                 <li><a href={detailsTeam.social.linkedin}><FaLinkedinIn /></a></li>
                                 <li><a href={detailsTeam.social.instagram}><FaInstagram /></a></li>

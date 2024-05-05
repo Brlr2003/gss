@@ -1164,4 +1164,33 @@
     }
 }
 
+// Mobile Menu Style
+@media only screen and (max-width: 991px) {
+    .active-dark-mode {
+        .mobilemenu-inner {
+            background-color: var(--dark-bg-color);
+        }
+        .mobilemenu-popup {
+            .mobilemenu-header {
+                border-color: var(--dark-border-gray);
+                .mobile-nav-logo {
+                    .dark-mode {
+                        display: block;
+                    }
+                    .light-mode {
+                        display: none;
+                    }
+                }
+                .mobile-menu-close {
+                    svg {
+                        path {
+                            fill: var(--dark-body-text);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
